@@ -1,0 +1,20 @@
+{
+    "name": "Firetab",
+    "version": "1.0",
+    "description": "Store all tabs in workspace and quickly launch all tabs linked to that workspace.",
+    "icons": {
+        "16": "images/small16.png",
+        "48": "images/small48.png",
+        "128": "images/small128.png"
+    },
+    "browser_action": {
+        "default_icon": "images/small16.png",
+        "default_popup": "index.html"
+    },
+    "options_page": "options.html",
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+    "manifest_version": 2
+}

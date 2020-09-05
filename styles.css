@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 330px;
+    font-family: 'Segoe UI';
+}
+
+header {
+    display: flex;
+    padding: 15px 15px 0px 15px;
+}
+header img {
+    position: relative;
+    top: -5px;
+    width: 37px;
+    height: 37px;
+}
+
+header h1 {
+    color: #3B404C;
+    position: relative;
+    top: -10px;
+    margin-left: 10px;
+    font-weight: 450;
+    font-size: 37px;
+}
+
+.search-section {
+    padding: 10px;
+}
+
+hr {
+    background-color: #3B404C;
+}
+
+.search-section input[type=text] {
+    width: 220px;
+    height: 34px;
+    padding: 0 10px;
+    border-radius: 20px;
+    border: 1px solid #3B404C;
+    color: #707070;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.search-section input[type=text]:focus{
+    outline: none;
+    color: #3B404C;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.eraseOutline:focus {
+    outline: none;
+}
+.eraseOutline:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.search-section input[type=submit] {
+    margin-left: 5px;
+    width: 79px;
+    height: 34px;
+    border-radius: 20px;
+    background-color: #3B404C;
+    color: #ffffff;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.search-section input[type=submit]:focus {
+    outline: none;
+}
+
+.search-section input[type=submit]:hover {
+    background-color: rgb(235, 235, 235);
+    color: #3B404C;
+    border: 1px solid #3B404C;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+#errorMessage {
+    margin-left: 5px;
+    margin-top: 2px;
+    color: red;
+}
+
+.workspace-section {
+    padding: 10px;
+}
+
+.workspace-section h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.workspace-section ul {
+    list-style-type: none;
+    margin-left: 11px;
+    margin-top: 15px;
+}
+
+.workspace-section ul li {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.workspace-section li p {
+    width: 200px;
+    height: 34px;
+    padding: 8px 0 0 10px;
+    border-radius: 20px;
+    background-color: #3B404C;
+    color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.workspace-section li p:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.workspace-section li button {
+    margin-left: 5px;
+    border-radius: 20px;
+    padding: 2px 15px;
+    border: 1px solid #3B404C;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.workspace-section li button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+
+}
+
+/* just for messages */
+
+#emptyWorkspace {
+    text-align: center;
+    font-size: 16px;
+    color: red;
+}

@@ -1,0 +1,31 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="images/small48.png" alt="logo.png">
+        <h1>FireTab</h1>
+    </header>
+    <hr>
+    <div id="form" class="search-section">
+        <input type="text" id="packname" name="packname" placeholder="Enter name here...">
+        <input type="submit" id="submitBtn" value="ADD">
+        <div id="errorMessage"></div>
+    </div>
+    <hr>
+    <div class="workspace-section">
+        <h2>Saved Workspace :</h2>
+        <ul id="show-workspace">
+        </ul>
+    </div>
+    <script defer src="popup.min.js"></script>
+</body>
+
+</html>
